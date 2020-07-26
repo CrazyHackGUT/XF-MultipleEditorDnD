@@ -1,0 +1,9 @@
+{
+    "template": "editor",
+    "description": "Adds the additional JS for editor",
+    "execution_order": 5,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:include_js]-->",
+    "replace": "$0\n<xf:js src=\"SModders/MultipleEditorDnD/editor.js\" min=\"1\" />"
+}
