@@ -5,7 +5,7 @@
  * Developed by SourceModders.
  */
 
-(function($, window, document, _undefined)
+(function(window, document, _undefined)
 {
     XF.Element.extend('editor', {
         __backup: {
@@ -39,4 +39,4 @@
             }
         }
     })
-})(jQuery, window, document);
+})(window, document);
